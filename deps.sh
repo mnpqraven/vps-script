@@ -11,6 +11,11 @@ sudo snap install btop
 # install rust
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 source $HOME/.cargo/env
+# firewall
+sudo apt  install ufw
+
+# nginx
+sudo apt install nginx
 
 # isntall protoc
 # TODO:
