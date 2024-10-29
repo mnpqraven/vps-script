@@ -12,6 +12,10 @@ sudo snap install btop
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 source $HOME/.cargo/env
 
+# isntall protoc
+# TODO:
+sudo apt install protobuf-compiler
+
 mkdir -p service_repos
 
 # install cmd cli
